@@ -10,7 +10,7 @@ end
 def summon_captain_planet(array)
   newArray = array.collect { |name| name.capitalize }
   newArray = newArray.collect { |name| name + "!" }
-  puts array
+  puts newArray
 end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
