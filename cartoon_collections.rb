@@ -8,8 +8,8 @@ end
 # roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 
 def summon_captain_planet(array)
-  array.collect { |name| name.capitalize }
-  array.collect { |name| name + "!" }
+  newArray = array.collect { |name| name.capitalize }
+  newArray = newArray.collect { |name| name + "!" }
   puts array
 end
 
