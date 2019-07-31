@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(array)
   puts array
-  array.map { |name| name.capitalize }
+  array.map { |name| name.to_str.capitalize }
   array.map { |name| name + "!" }
   puts array
 end
