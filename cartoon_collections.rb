@@ -29,7 +29,7 @@ def find_the_cheese(array)
   #
   
    array.find do |maybe_cheese|
-    cheeses.include?(maybe_cheese)
+    cheese_types.include?(maybe_cheese)
   
   end
 end
