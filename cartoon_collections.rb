@@ -32,3 +32,4 @@ def find_the_cheese(array)
     cheeses.include?(maybe_cheese)
   
 end
+end
