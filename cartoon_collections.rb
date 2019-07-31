@@ -14,6 +14,8 @@ def summon_captain_planet(array)
   puts array
 end
 
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+
 def long_planeteer_calls# code an argument here
   # Your code here
 end
