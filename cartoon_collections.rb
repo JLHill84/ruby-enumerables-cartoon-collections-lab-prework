@@ -9,12 +9,12 @@ end
 
 def summon_captain_planet(array)
   newArray = array.collect { |name| name.capitalize + "!" }
-  #newArray = newArray.collect { |name| name + "!" }
+  # newArray = newArray.collect { |name| name + "!" }
   return newArray
 end
 
-#planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-#summon_captain_planet(planeteer_calls)
+# planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+# summon_captain_planet(planeteer_calls)
 
 def long_planeteer_calls(array)
   array.any? { |word| word.length > 4}
@@ -23,7 +23,10 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.include?(cheese_types) { return array}
-  else return nil
-  end  
+  # if array.include?(cheese_types) { return array}
+  #else return nil
+  # end  
+  
+  
+  
 end
